@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<h1 class="display-4" text-primary>マイページ</h1>
+<h2 class="h4">※<%=@user.account.email %>さんの設定</h2>
+
+<%= render 'form', user: @user %>
+<hr>
+<%# ここにカレンダーUIのシフト提出フォーム %>
+<p><%=link_to '<<go back', controller: :shifts %></p>
+<div><%= link_to "Sign out&gt;&gt;".html_safe,
+  destroy_account_session_path, 
+  method: :delete %></div>

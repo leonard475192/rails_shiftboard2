@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# TODO
+
+* Top pageの作成
+* ログイン時のエラーメッセージの表示
+* password忘れたときの対処
+* 無効なメールアドレスの対処（account activation）
+* シフトの表示
+* シフトフォーム
+* 管理者画面の作成
+
