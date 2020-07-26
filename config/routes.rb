@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'shifts#index'
   resources :shifts
   resources :users
   devise_for :accounts

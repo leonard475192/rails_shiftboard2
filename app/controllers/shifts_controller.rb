@@ -23,18 +23,18 @@ class ShiftsController < ApplicationController
   # GET /shifts/1
   # GET /shifts/1.json
   def show
-    redirect_to '/shift'
+    redirect_to '/shifts'
   end
 
   # GET /shifts/new
   def new
     # @shift = Shift.new
-    redirect_to '/shift'
+    redirect_to '/shifts'
   end
 
   # GET /shifts/1/edit
   def edit
-    redirect_to '/shift'
+    redirect_to '/shifts'
   end
 
   # POST /shifts
@@ -58,7 +58,7 @@ class ShiftsController < ApplicationController
   # PATCH/PUT /shifts/1
   # PATCH/PUT /shifts/1.json
   def update
-    redirect_to '/shift'
+    redirect_to '/shifts'
     # respond_to do |format|
     #   if @shift.update(shift_params)
     #     format.html { redirect_to @shift, notice: 'Shift was successfully updated.' }
@@ -73,7 +73,7 @@ class ShiftsController < ApplicationController
   # DELETE /shifts/1
   # DELETE /shifts/1.json
   def destroy
-    redirect_to '/shift'
+    redirect_to '/shifts'
     # @shift.destroy
     # respond_to do |format|
     #   format.html { redirect_to shifts_url, notice: 'Shift was successfully destroyed.' }
