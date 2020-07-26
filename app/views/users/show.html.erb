@@ -1,0 +1,17 @@
+<h1 class="display-4 text-primary">
+  "<%=@user.name %>"
+</h1>
+<table class="table">
+  <tr>
+    <th>Name</th>
+    <td><%= @user.name %></td>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <td><%= @user.id %></td>
+  </tr>
+</table>
+
+<hr>
+<%= link_to '<< Back', controller: :shifts %>
+<hr>
